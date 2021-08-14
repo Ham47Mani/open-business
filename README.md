@@ -4,8 +4,8 @@
  * Template Url       : .....................
  * Language           : HTML5, SASS, jQuery 
  * Contact Me : Skaype   :- Hammani
- *				Facebook :- Ham mani
- *				Email    :- Ham47mani@gmail.com
+ *				      Facebook :- Ham mani
+ *				      Email    :- Ham47mani@gmail.com
 -->
 
 
@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="">
+  <a href="https://ham47mani.github.io/open-business/">
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -22,11 +22,11 @@
   <p align="center">
     Open-Business is a creative & awesome HTML template 
     <br />
-    <a href="">View Demo</a>
+    <a href="https://ham47mani.github.io/open-business/">View Demo</a>
     ·
-    <a href="">Report Bug</a>
+    <a href="https://github.com/Ham47Mani/open-business/issues">Report Bug</a>
     ·
-    <a href="">Request Feature</a>
+    <a href="https://github.com/Ham47Mani/open-business/issues">Request Feature</a>
   </p>
 </p>
 
