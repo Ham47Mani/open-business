@@ -1,0 +1,49 @@
+//======================================= Start Header ============================
+header {
+    //--> Logo
+    .logo { 
+        padding-top: 70px;
+        padding-bottom: 70px;
+        border-top: 5px solid var(--main-Color);
+        color: #999;
+        .h1 { 
+            margin: 0 10px 0 0;
+            padding-right: 10px;
+            border-right: 1px solid #999;
+            color: #333
+        }
+        .btn { background-color: var(--main-Color); border-color: var(--main-Color) }
+    }
+    //--> Navbar
+    nav { 
+        margin-top: 30px; margin-bottom: 70px;
+        .navbar-collapse { padding-left: 0 }
+        &.navbar-default .navbar-nav>.active>a,
+        &.navbar-default .navbar-nav>.active>a:focus,
+        &.navbar-default .navbar-nav>.active>a:hover,
+        &.navbar-default .navbar-nav>.open>a,
+        &.navbar-default .navbar-nav>.open>a:focus,
+        &.navbar-default .navbar-nav>.open>a:hover { background-color: var(--main-Color); color: #FFF }
+        &.navbar-default .navbar-nav>li>a:hover:not(.dropdown-toggle) { border-bottom: 2px solid var(--main-Color) }
+        .dropdown-menu>li > a {
+            @include prefixAll(transition, all .5s ease-in-out);
+            &:hover { 
+                padding-left: 25px; 
+                background-color: var(--main-Color); 
+                color: #FFF 
+            }
+        }
+    }
+    //--> Carousel
+    .carousel { 
+        padding-top: 50px; padding-bottom: 50px;
+        .prin { height: 500px }
+        img { height: 100% }
+        .choix {
+            div { height: 225px; cursor: pointer }
+            .top { margin-bottom: 25px }
+            .bottom { margin-top: 25px }
+        }
+    }
+}
+//======================================= End Header ============================

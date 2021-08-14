@@ -1,0 +1,52 @@
+//======================================= Start Footer ============================
+//--> Contact Us
+.contact { 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f0f0f0;
+    border-top: 10px solid #e5e5e5;
+    color: #989898;
+    border-bottom: 5px solid #6a6a6a;
+    .lead { font-size: 14px }
+    h3 { font-weight: bold }
+    .read { font-size: 16px; color: var(--main-Color); cursor: pointer; font-weight: bold }
+    .about img { margin: 0 0 30px 0 }
+    //--> newslat
+    .newslet {
+        input { width: 50%; border-radius: 10px }
+        button { background-color: var(--main-Color); color: #FFF }
+    }
+    //--> Social
+    .social {
+        .lead { 
+            font-size: 20px; margin-right: 10px; margin-bottom: 20px;
+            span { 
+                padding: 10px;
+                border-radius: 50%; 
+                color: #FFF;
+                background-color: #333
+            }
+        }
+        .socialH { margin: 20px 0 }
+    }
+    //--> Blog
+    .blog {
+        h4 { margin-bottom: 3px }
+        p { margin-bottom: 3px }
+        .post { margin: 10px 0 }
+    }
+    //--> Contactus
+    .contactus {
+        input, textarea { background-color: #dbdbdb; border-radius: 10px }
+        button { background-color: var(--main-Color); color: #FFF }
+    }
+}
+//--> Footer
+footer { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1e1e1e;
+    color: #999;
+    p { margin: 0 }
+}
+//======================================= End Footer ============================

@@ -1,0 +1,41 @@
+//======================================= Start Services ============================
+.services { 
+    padding-top: 20px; padding-bottom: 50px; background-color: #dbdbdb;
+    .icon span { 
+        background-color: #FFF;
+        border-radius: 50%;
+        padding: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        @include prefixAll(transition, all .5s ease-in-out);
+        &:hover { background-color: var(--main-Color); color: #FFF }
+    }
+    .item_hide { display: none }
+    .item { 
+        margin: 20px 0 10px 0; color: #999;
+        img { min-width: 100% }
+        h3 { color: var(--main-Color) }
+    }
+}
+//======================================= End Services ============================
+
+//======================================= Start Persone ============================
+.persone { 
+    padding-top: 50px; padding-bottom: 50px; color: #999;
+    .img { 
+        height: 200px; float: left; margin-right: 25px;
+        img { height: 100%; filter: gray; @include prefixAll(filter, grayscale(1)) }
+        &:hover img {
+            filter: none;
+            @include prefixAll(filter, grayscale(0));
+            @include prefixAll(transform, scale(1.2,1.2));
+        }
+    }
+    .content {
+        h3 { color: #000 }
+        p { font-size: 16px }
+        button { background-color: var(--main-Color); color: #FFF }
+    }
+}
+//======================================= End Persone ============================
